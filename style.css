@@ -11,10 +11,23 @@
 
 /* Basislayout */
 
+
+
+
+
+
+
+
+
+
+
 html, body {
     height: 100%;
     padding: 0;
-    background-color :rgb(255, 255, 255);  
+    background-image: url('afbeeldingen/skigebied.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     
     color : rgb(0, 0, 0);
     font: Verdana, Arial, Sans-Serif;
@@ -110,3 +123,14 @@ nav li a.active {
   clear: both;
 }
 
+img.skistok{
+  float: left;
+  height: 120px;
+  
+}
+
+img.skischoenen{
+  float: right;
+  height: 180px;
+  
+}
