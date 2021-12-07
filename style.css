@@ -1,4 +1,4 @@
-/* basis instelling */ 
+ /* basis instelling */ 
 
 * { 
   border: solid 0px black;
@@ -43,6 +43,8 @@ main {
 
 article {
     text-align: justify;
+    background:rgba(255,255,255, 50%);
+    padding: 10px;
 }
 
 
@@ -133,4 +135,9 @@ img.skischoenen{
   float: right;
   height: 180px;
   
+}
+
+img.skiers{
+  float: left;
+  height: 160px;
 }
